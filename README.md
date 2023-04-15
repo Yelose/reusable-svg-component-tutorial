@@ -856,7 +856,10 @@ export class SvgGridComponent {
 
 ### I have changed some more colors, you can check the final code
 
-
+```
+git clone https://github.com/Yelose/reusable-svg-component-tutorial.git
+npm install
+```
 
 Change your <code>colors.ts</code> variable to see the changes on the images.
 
