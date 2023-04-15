@@ -1,1 +1,9 @@
-<p>svg works!</p>
+<svg
+  [attr.xmlns]="image.xmlns"
+  [attr.data-name]="image.dataName"
+  [attr.width]="image.width"
+  [attr.height]="image.height"
+  [attr.viewBox]="image.viewBox"
+  [attr.xmlns:xlink]="image.xmlnsXlink"
+  [innerHTML]="image.content | safeHtml"
+></svg>
