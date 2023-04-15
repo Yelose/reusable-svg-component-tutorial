@@ -1,4 +1,9 @@
+import { colors } from 'src/app/colors';
 import { SvgModel } from 'src/app/models/svg-model';
+
+const primaryColor = colors.primary;
+const hairColor = colors.hair;
+const skinColor = colors.skin;
 
 export const wavingGirl: SvgModel = {
   xmlns: 'http://www.w3.org/2000/svg',
@@ -21,7 +26,7 @@ export const wavingGirl: SvgModel = {
         data-name="Path 2484"
         d="M546.258,439.30148l175.00007-34.992,3.8,96.011-13.7,108.762,9.9,129.708H532.525l4.912-150.492s-42.112-59.417-17.303-119.308Z"
         transform="translate(-58.95203 -158.21149)"
-        fill="#6c63ff"
+        fill="${primaryColor}"
       />
 
       <path
@@ -29,7 +34,7 @@ export const wavingGirl: SvgModel = {
         data-name="Path 2485"
         d="M936.476,211.54248a28.21206,28.21206,0,0,1-26.5,34.191l-167.814,194.6-39.016-47.35,177.224-176.392a28.365,28.365,0,0,1,56.109-5.045Z"
         transform="translate(-58.95203 -158.21149)"
-        fill="#feb8b8"
+        fill="${skinColor}"
       />
 
       <path
@@ -37,7 +42,7 @@ export const wavingGirl: SvgModel = {
         data-name="Path 2486"
         d="M778.697,419.09451a12.636,12.636,0,0,1-4.181,9.668l-47.187,42.478a35.1342,35.1342,0,1,1-54.3-44.6l32.94111-54.51a12.65,12.65,0,0,1,18.885-3.21l49.25305,40.7a12.63693,12.63693,0,0,1,4.589,9.483Z"
         transform="translate(-58.95203 -158.21149)"
-        fill="#6c63ff"
+        fill="${primaryColor}"
       />
 
       <path
@@ -45,7 +50,7 @@ export const wavingGirl: SvgModel = {
         data-name="Path 2487"
         d="M271.86,668.85352a28.21306,28.21306,0,0,1,31.334-29.828l195.113-167.211,31.469,52.668-201.685,147.8a28.365,28.365,0,0,1-56.231-3.432Z"
         transform="translate(-58.95203 -158.21149)"
-        fill="#feb8b8"
+        fill="${skinColor}"
       />
 
       <circle
@@ -54,7 +59,7 @@ export const wavingGirl: SvgModel = {
         cx="568.62999"
         cy="126.80999"
         r="71.242"
-        fill="#3f3d56"
+        fill="${hairColor}"
       />
 
       <path
@@ -62,7 +67,7 @@ export const wavingGirl: SvgModel = {
         data-name="Path 2488"
         d="M458.995,487.3255a12.63794,12.63794,0,0,1,5.584-8.932l53.027-34.917a35.132,35.132,0,1,1,47.29144,51.96679q-.14941.136-.30036.27021l-40.751,48.961a12.65014,12.65014,0,0,1-19.152.34l-42.588-47.625a12.63515,12.63515,0,0,1-3.115-10.064Z"
         transform="translate(-58.95203 -158.21149)"
-        fill="#6c63ff"
+        fill="${primaryColor}"
       />
       <circle
         id="b8556b8d-ea4d-44f1-881d-63b03cbd5c82"
@@ -70,7 +75,7 @@ export const wavingGirl: SvgModel = {
         cx="561.88999"
         cy="171.78799"
         r="64.502"
-        fill="#feb8b8"
+        fill="${skinColor}"
       />
 
       <path
@@ -78,7 +83,7 @@ export const wavingGirl: SvgModel = {
         data-name="Path 574"
         d="M664.769,158.21149a38.943,38.943,0,0,1-22.472,15.447c-15.713,4.208-.128,27.819-.128,27.819s-5.667-8.586,2.507-17.679S666.005,168.48949,664.769,158.21149Z"
         transform="translate(-58.95203 -158.21149)"
-        fill="#3f3d56"
+        fill="${hairColor}"
       />
 
       <circle
@@ -87,7 +92,7 @@ export const wavingGirl: SvgModel = {
         cx="580.43297"
         cy="48.93"
         r="19.854"
-        fill="#3f3d56"
+        fill="${hairColor}"
       />
 
       <path
@@ -95,7 +100,7 @@ export const wavingGirl: SvgModel = {
         data-name="Path 575"
         d="M669.053,223.78349c-16.186-6.122-43.136-9.226-57-7.1l1.9-13.885c13.33,6.889,40.157,10.127,57,7.1Z"
         transform="translate(-58.95203 -158.21149)"
-        fill="#6c63ff"
+        fill="${primaryColor}"
       />
 
       <path
@@ -103,7 +108,7 @@ export const wavingGirl: SvgModel = {
         data-name="Path 576"
         d="M631.657,226.38049s-20.285,33.74-67.454,46.371-.385,83.513-.385,83.513-17.012-25.775,7.526-53.072S635.369,257.23349,631.657,226.38049Z"
         transform="translate(-58.95203 -158.21149)"
-        fill="#3f3d56"
+        fill="${hairColor}"
       />
 
       <path
@@ -111,7 +116,7 @@ export const wavingGirl: SvgModel = {
         data-name="Path 577"
         d="M639.344,226.7015s19.487,46.344,40.881,50.726,19.771,77.61-13.685,88.591c0,0,24.4-42.93,3.543-71.721S636.058,242.74649,639.344,226.7015Z"
         transform="translate(-58.95203 -158.21149)"
-        fill="#3f3d56"
+        fill="${hairColor}"
       />
       <rect
         id="f9722a62-0ff9-4c04-8bc3-c55c9a508670"

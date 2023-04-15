@@ -227,15 +227,6 @@ import { SvgModel } from "src/app/models/svg-model";
   styleUrls: ["./svg.component.scss"],
 })
 export class SvgComponent {
-  @Input() primaryColor: string = "";
-  @Input() hairColor: string = "";
-  @Input() furnitureColor: string = "";
-  @Input() shirtColor: string = "";
-  @Input() throusersColor: string = "";
-  @Input() shoesColor: string = "";
-  @Input() plantsColor: string = "";
-  @Input() skinColor: string = "";
-
   @Input() image: SvgModel = {
     xmlns: "",
     dataName: "",
@@ -862,6 +853,10 @@ export class SvgGridComponent {
   ];
 }
 ```
+
+### I have changed some more colors, you can check the final code
+
+Change your `colors.ts` variable to see the changes on the images.
 
 I hope it was helpfull, you will see it in action shortly in my portfolio.
 

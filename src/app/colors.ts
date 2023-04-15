@@ -1,5 +1,5 @@
 export const colors = {
-  primary: '#6C63FF',
-  hair: '#A52A2A',
-  skin: '#ffbfb6',
+  primary: '#4169E1',
+  hair: '#CD853F',
+  skin: '#FFE4C4',
 };
