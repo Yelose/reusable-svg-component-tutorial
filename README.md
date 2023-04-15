@@ -44,7 +44,11 @@ svg works!
 
 ## Add some svg code to the svg.component.html
 
-Add a full svg code to the component and check that it works on localhost:4200 or the port you are using.
+<details>
+
+<summary>
+Add a full svg code to the component and check that it works on localhost:4200 or the port you are using. Click to copy the code.
+</summary>
 
 ```html
 <svg
@@ -200,3 +204,5 @@ Add a full svg code to the component and check that it works on localhost:4200 o
   />
 </svg>
 ```
+
+</details>
