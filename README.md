@@ -749,23 +749,23 @@ Using variables for theming your svg.
 Adding a new svg, with color variables
 </summary>
 
-´´´ts
-import { colors } from 'src/app/colors';
-import { SvgModel } from 'src/app/models/svg-model';
+```ts
+import { colors } from "src/app/colors";
+import { SvgModel } from "src/app/models/svg-model";
 
 const hairColor: string = colors.hair;
 const skinColor: string = colors.skin;
 const primaryColor: string = colors.primary;
-const heartColor: string = '#DB7093';
+const heartColor: string = "#DB7093";
 
 export const lovelySvg: SvgModel = {
-xmlns: 'http://www.w3.org/2000/svg',
-dataName: '',
-width: '100%',
-height: 'fit-content',
-viewBox: '0 0 524.66998 392.98537',
-xmlnsXlink: '0 0 524.66998 392.98537',
-content: `<polygon
+  xmlns: "http://www.w3.org/2000/svg",
+  dataName: "",
+  width: "100%",
+  height: "fit-content",
+  viewBox: "0 0 524.66998 392.98537",
+  xmlnsXlink: "0 0 524.66998 392.98537",
+  content: `<polygon
   points="146.06 297.49914 116.45 300.71914 102.28 291.05913 94.08 300.71914 98.02 321.09914 102.52 337.18914 129.85001 323.30913 151.86 321.31914 146.06 297.49914"
   fill="${skinColor}" />
   <polygon
@@ -824,7 +824,7 @@ content: `<polygon
     d="m364.34,116.63913c7.09.77,12.20999,6.91,16.53,12.58,2.48999,3.27,5.10001,6.88,5.04001,10.99001-.06,4.14999-2.84,7.72-4.17001,11.66-2.17001,6.44-.06,14.09,5.10999,18.5-5.10001.97-10.62-2.86-11.5-7.98-1.03-5.96001,3.48999-11.71001,2.95999-17.74001-.47-5.31-4.64999-9.39-8.20999-13.36s-6.89001-9.23-5.26001-14.3l-.5-.34h0l.00003-.01001Z"
     fill="${hairColor}" />`,
 };
-´´´
+```
 
 </detail>
 
