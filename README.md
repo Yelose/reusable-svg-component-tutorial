@@ -241,7 +241,7 @@ export class SvgComponent {
 
 ### svg.component.html
 
-This one is going to take the attributes from the parent component, and link them with our @Inputs that are actually empty
+This one is going to take the attributes from the parent component, and link them with our <code>@Input</code>s that are actually empty
 
 ```html
 <svg
@@ -494,14 +494,14 @@ ng g c components/svg-grid
 
 Well, now we have a problem, if we keep coding like this, our ts files will get so big, so let's fix it.
 
-let's make a folder `called svg-data` inside `svg-grid` folder and let's add a ts file for each svg we create, this way it will be much more organized
+let's make a folder <code>called svg-data</code> inside <code>svg-grid</code> folder and let's add a ts file for each svg we create, this way it will be much more organized
 
-I created a ts file called `waving-girl.ts` inside `svg-data`
+I created a ts file called <code>waving-girl.ts</code> inside <u>svg-data</u>.
 
-<detail>
+<details>
 
 <summary>
-copy the image variable from app.component.ts, and paste it inside `waving-girl.ts`.
+  copy the image variable from app.component.ts, and paste it inside <code>waving-girl.ts</code>.
 </summary>
 
 ```ts
@@ -662,7 +662,7 @@ export const image: SvgModel = {
 };
 ```
 
-</detail>
+</details>
 
 I changed the width and the height so they fit in the container we will place them in
 
@@ -725,9 +725,9 @@ export class SvgGridComponent {
 
 Almost done, let's add one more to check that it is for real reusable
 
-### new file `colors.ts`
+### new file <code>colors.ts</code>
 
-But first, add a colors.ts file wherever you want, I added it to the app folder just for this example.
+But first, add a <code>colors.ts</code> file wherever you want, I added it to the app folder just for this example.
 
 ```ts
 export const colors = {
@@ -739,11 +739,11 @@ export const colors = {
 
 ### svg-data/lovely.ts
 
-Adding a lovely svg `lovely.ts`.
+Adding a lovely svg <code>lovely.ts</code>.
 
 Using variables for theming your svg.
 
-<detail>
+<details>
 
 <summary>
 Adding a new svg, with color variables
@@ -826,7 +826,7 @@ export const lovelySvg: SvgModel = {
 };
 ```
 
-</detail>
+</details>
 
 ### svg-grid.component.ts
 
@@ -856,7 +856,9 @@ export class SvgGridComponent {
 
 ### I have changed some more colors, you can check the final code
 
-Change your `colors.ts` variable to see the changes on the images.
+
+
+Change your <code>colors.ts</code> variable to see the changes on the images.
 
 I hope it was helpfull, you will see it in action shortly in my portfolio.
 
