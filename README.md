@@ -207,7 +207,7 @@ Add a full svg code to the component and check that it works on localhost:4200 o
 
 </details>
 
-You should see a someone waving now! that's me!
+You should see a person waving now! that's me!
 
 ## Making the component reusable
 
