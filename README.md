@@ -215,7 +215,7 @@ To make the component reusable, we need to add @Input to the reusable component,
 
 ### svg.component.ts
 
-I want to be able to change hair color, skin color and clothes color, so I make some variables:
+We use the interface we created on this component, and just receive the image.
 
 ```ts
 import { Component, Input } from "@angular/core";
