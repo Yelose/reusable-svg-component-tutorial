@@ -211,7 +211,7 @@ You should see a person waving now! that's me!
 
 ## Making the component reusable
 
-To make the component reusable, we need to add @Input to the reusable component, and [attributes] every time we use it, so, let's work for it!
+To make the component reusable, we need to add <code>@Input</code> to the reusable component, and <code>[attributes]</code> every time we use it, so, let's work for it!
 
 ### svg.component.ts
 
@@ -257,7 +257,7 @@ This one is going to take the attributes from the parent component, and link the
 
 ### app.component.ts
 
-Now we need to give the variables to the child, lets add the attributes to the component we put in app
+Creating image to pass to the child
 
 <details>
 
